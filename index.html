@@ -19,8 +19,28 @@
         <p class="sub-title">The best burgers and piza in town</p>
     </div>
 
-    <div id="menu-lists" class="menu-lists">
+    <div id="menu-lists" class="menu-lists"></div>
+    <div class="order-container" id="order-container">
+        <p class="order-heading">Your Order</p>
+        <div id="order-lists" class="order-lists"></div>
+        <div class="order-total">
+            <p class="total">Total Price:</p>
+            <p class="total-price" id="total-price">$0</p>
+        </div>
+        <button class="complete-order-btn" id="complete-order-btn">Complete Order</button>
+    </div>
+    <div class=" thank-you-session hidden" id="thank-you-session"></div>
 
+    <div class="payment-modal hidden" id="payment-modal">
+        <div class="modal-inner">
+            <p>Enter card detail</p>
+            <form id="payment-form">
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                <input type="text" name="card-number" id="card-number" placeholder="Enter card number" required>
+                <input type="text" name="cvv" id="cvv" placeholder="Enter CVV" required>
+                <button class="pay-btn" id="pay-btn">Pay</button>
+            </form>
+        </div> 
     </div>
 
     <script src="./index.js" type="module"></script>
