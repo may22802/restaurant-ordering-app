@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    font-family: "Smythe", serif;
+    padding: 46px;
+    margin: 0 auto;
+    width: 600px;
+    background-image: url(./header.png);
+}
+
+.title{
+    margin: 0;
+    font-size: 39px;
+    color: white;
+}
+
+.sub-title{
+    margin: 0;
+    font-size: 22px;
+    color: white;
+}
+
+.menu-lists{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.menu{
+    font-family: "Smythe", serif;
+    padding: 46px 0;
+    border-bottom: 1px solid #D2D2D2;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.menu-emoji{
+    margin: 0;
+    font-size: 78px;
+}
+
+.menu-detial{
+    margin-right: auto;
+    margin-left: 15px;
+}
+.menu-name{
+    margin: 0 0 10px 0;
+    font-size: 26px;
+}
+
+.menu-ingredients{
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #8B8B8B;
+}
+
+.menu-price{
+    margin: 0;
+    font-size: 20px;
+}
+
+.menu-add-btn{
+    font-size: 32px;
+    background-color: transparent;
+    border: none;
+}
